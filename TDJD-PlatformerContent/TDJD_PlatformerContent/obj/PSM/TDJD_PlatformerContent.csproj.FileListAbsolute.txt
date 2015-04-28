@@ -1,0 +1,6 @@
+C:\Development\IPCA\Aulas\TDJD\TDJD-Platformer\TDJD-PlatformerContent\TDJD_PlatformerContent\bin\PSM\Content\test.xnb
+C:\Development\IPCA\Aulas\TDJD\TDJD-Platformer\TDJD-PlatformerContent\TDJD_PlatformerContent\bin\PSM\Content\tileset.xnb
+C:\Development\IPCA\Aulas\TDJD\TDJD-Platformer\TDJD-PlatformerContent\TDJD_PlatformerContent\bin\PSM\IgnoreMe.dll
+C:\Development\IPCA\Aulas\TDJD\TDJD-Platformer\TDJD-PlatformerContent\TDJD_PlatformerContent\obj\PSM\TDJD_PlatformerContent.csprojResolveAssemblyReference.cache
+C:\Development\IPCA\Aulas\TDJD\TDJD-Platformer\TDJD-PlatformerContent\TDJD_PlatformerContent\obj\PSM\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Development\IPCA\Aulas\TDJD\TDJD-Platformer\TDJD-PlatformerContent\TDJD_PlatformerContent\obj\PSM\IgnoreMe.dll
