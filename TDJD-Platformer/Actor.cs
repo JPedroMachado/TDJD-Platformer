@@ -9,6 +9,7 @@ namespace TDJD_Platformer
 
         protected Actor(float x, float y)
         {
+            Alive = true;
             Position = new Vector2(x, y);
             World.Actors.Add(this);
         }

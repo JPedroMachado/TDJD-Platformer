@@ -1,34 +1,9 @@
-﻿using System.Collections.Generic;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using TDJD_Platformer.Actors;
-using TDJD_Platformer.Interfaces;
 
 namespace TDJD_Platformer
 {
-    public static class World
-    {
-        public static float DeltaTime;
-        public const float Gravity = 9.8f; // Este valor vai ter que ser mudado, 9.8f acho que é muito pouco, é uma questão de testar.
-        public static List<Actor> Actors { get; private set; }
-
-        static World()
-        {
-            Actors = new List<Actor>();
-        }
-
-        public static void Update()
-        {
-            for (int i = Actors.Count - 1; i >= 0; i--) {
-                if (!Actors[i].Alive) {
-                    ICollidable collidable = Actors[i] as ICollidable;
-                    if (collidable != null) Collisions.Colliders.Remove(collidable.Collider);
-                    Actors.RemoveAt(i);
-                }
-            }
-        }
-    }
-
     /// <summary>
     /// This is the main type for your game
     /// </summary>
@@ -100,8 +75,7 @@ namespace TDJD_Platformer
         protected override void Update(GameTime gameTime)
         {
             World.DeltaTime = (float) gameTime.ElapsedGameTime.TotalSeconds;
-
-            c1.Update();
+            World.Update();
 
             base.Update(gameTime);
         }
